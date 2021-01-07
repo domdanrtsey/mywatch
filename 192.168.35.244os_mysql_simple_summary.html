@@ -1,0 +1,302 @@
+<html>
+<head>
+<style type=text/css>
+    body        {font:12px Courier New,Helvetica,sansserif; color:black; background:White;}
+    table,tr,td {font:12px Courier New,Helvetica,sansserif; color:Black; background:#FFFFCC; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;} 
+    th          {font:bold 12px Courier New,Helvetica,sansserif; color:White; background:#0033FF; padding:0px 0px 0px 0px;} 
+    h1          {font:bold 12pt Courier New,Helvetica,sansserif; color:Black; padding:0px 0px 0px 0px;} 
+</style>
+</head>
+<body>
+<h1>Network Info Summary</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <th>interface </th>
+<th> status </th>
+<th> ipadds </th>
+<th> mtu </th>
+<th> Speed </th>
+<th> Duplex</th>
+  </tr>
+<tr>
+    <td>ens192 </td>
+<td> up </td>
+<td> 192.168.35.244 </td>
+<td> 1500 </td>
+<td> 10000Mb/s </td>
+<td> Full</td>
+  </tr>
+<tr>
+    <td>lo </td>
+<td> up </td>
+<td> 127.0.0.1 </td>
+<td> 65536 </td>
+<td> </td>
+<td></td>
+  </tr>
+</table>
+<h1>Basic Database && binlog Information</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <td>now()</td>
+<td> 2020-12-21 16</td>
+<td>59</td>
+<td>56</td>
+  </tr>
+<tr>
+    <td>current_user()</td>
+<td> root@127.0.0.1</td>
+  </tr>
+<tr>
+    <td>version()</td>
+<td> 5.7.31-log</td>
+  </tr>
+<tr>
+    <td>autocommit </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>binlog_cache_size </td>
+<td> 65536</td>
+  </tr>
+<tr>
+    <td>binlog_checksum </td>
+<td> CRC32</td>
+  </tr>
+<tr>
+    <td>binlog_direct_non_transactional_updates </td>
+<td> OFF</td>
+  </tr>
+<tr>
+    <td>binlog_error_action </td>
+<td> ABORT_SERVER</td>
+  </tr>
+<tr>
+    <td>binlog_format </td>
+<td> ROW</td>
+  </tr>
+<tr>
+    <td>binlog_group_commit_sync_delay </td>
+<td> 100</td>
+  </tr>
+<tr>
+    <td>binlog_group_commit_sync_no_delay_count </td>
+<td> 10</td>
+  </tr>
+<tr>
+    <td>binlog_gtid_simple_recovery </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>binlog_max_flush_queue_time </td>
+<td> 0</td>
+  </tr>
+<tr>
+    <td>binlog_order_commits </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>binlog_row_image </td>
+<td> FULL</td>
+  </tr>
+<tr>
+    <td>binlog_rows_query_log_events </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>binlog_stmt_cache_size </td>
+<td> 32768</td>
+  </tr>
+<tr>
+    <td>binlog_transaction_dependency_history_size </td>
+<td> 25000</td>
+  </tr>
+<tr>
+    <td>binlog_transaction_dependency_tracking </td>
+<td> COMMIT_ORDER</td>
+  </tr>
+<tr>
+    <td>innodb_api_enable_binlog </td>
+<td> OFF</td>
+  </tr>
+<tr>
+    <td>innodb_locks_unsafe_for_binlog </td>
+<td> OFF</td>
+  </tr>
+<tr>
+    <td>log_statements_unsafe_for_binlog </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>max_binlog_cache_size </td>
+<td> 18446744073709547520</td>
+  </tr>
+<tr>
+    <td>max_binlog_size </td>
+<td> 1073741824</td>
+  </tr>
+<tr>
+    <td>max_binlog_stmt_cache_size </td>
+<td> 18446744073709547520</td>
+  </tr>
+<tr>
+    <td>sync_binlog </td>
+<td> 1</td>
+  </tr>
+<tr>
+    <td>innodb_flush_log_at_timeout </td>
+<td> 1</td>
+  </tr>
+<tr>
+    <td>innodb_flush_log_at_trx_commit </td>
+<td> 1</td>
+  </tr>
+<tr>
+    <td>innodb_flush_method </td>
+<td></td>
+  </tr>
+<tr>
+    <td>innodb_flush_neighbors </td>
+<td> 1</td>
+  </tr>
+<tr>
+    <td>innodb_flush_sync </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>innodb_flushing_avg_loops </td>
+<td> 30</td>
+  </tr>
+</table>
+<h1>Running Status of Database</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  --------------
+mysql  Ver 14.14 Distrib 5.7.31, for Linux (x86_64) using  EditLine wrapper
+
+Connection id:		53649
+Current database:	
+Current user:		root@127.0.0.1
+SSL:			Cipher in use is ECDHE-RSA-AES128-GCM-SHA256
+Current pager:		stdout
+Using outfile:		''
+Using delimiter:	;
+Server version:		5.7.31-log MySQL Community Server (GPL)
+Protocol version:	10
+Connection:		localhost via TCP/IP
+Server characterset:	utf8
+Db     characterset:	utf8
+Client characterset:	utf8
+Conn.  characterset:	utf8
+TCP port:		3306
+Uptime:			18 days 23 hours 28 min 36 sec
+
+Threads: 120  Questions: 3425031  Slow queries: 274  Opens: 275563  Flush tables: 1  Open tables: 1968  Queries per second avg: 2.088
+--------------
+  </pre></td></tr>
+</table>
+<h1>Important Parameters</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <th>Variable_name</th>
+<th>Value</th>
+  </tr>
+<tr>
+    <td>enforce_gtid_consistency </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>expire_logs_days </td>
+<td> 7</td>
+  </tr>
+<tr>
+    <td>gtid_mode </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>innodb_buffer_pool_size </td>
+<td> 1073741824</td>
+  </tr>
+<tr>
+    <td>innodb_data_home_dir </td>
+<td></td>
+  </tr>
+<tr>
+    <td>innodb_file_per_table </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>innodb_flush_log_at_trx_commit </td>
+<td> 1</td>
+  </tr>
+<tr>
+    <td>innodb_io_capacity </td>
+<td> 200</td>
+  </tr>
+<tr>
+    <td>innodb_log_file_size </td>
+<td> 1073741824</td>
+  </tr>
+<tr>
+    <td>innodb_log_files_in_group </td>
+<td> 3</td>
+  </tr>
+<tr>
+    <td>innodb_temp_data_file_path </td>
+<td> ibtmp1:12M:autoextend</td>
+  </tr>
+<tr>
+    <td>log_slave_updates </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>long_query_time </td>
+<td> 1.000000</td>
+  </tr>
+<tr>
+    <td>lower_case_table_names </td>
+<td> 1</td>
+  </tr>
+<tr>
+    <td>max_connect_errors </td>
+<td> 100</td>
+  </tr>
+<tr>
+    <td>max_user_connections </td>
+<td> 0</td>
+  </tr>
+<tr>
+    <td>myisam_max_sort_file_size </td>
+<td> 9223372036853727232</td>
+  </tr>
+<tr>
+    <td>myisam_sort_buffer_size </td>
+<td> 8388608</td>
+  </tr>
+<tr>
+    <td>open_files_limit </td>
+<td> 5000</td>
+  </tr>
+<tr>
+    <td>query_cache_size </td>
+<td> 1048576</td>
+  </tr>
+<tr>
+    <td>server_id </td>
+<td> 83</td>
+  </tr>
+<tr>
+    <td>slow_query_log </td>
+<td> ON</td>
+  </tr>
+<tr>
+    <td>slow_query_log_file </td>
+<td> /data/mysql/logs/slow.log</td>
+  </tr>
+<tr>
+    <td>sync_binlog </td>
+<td> 1</td>
+  </tr>
+</table>
+</body></html>
